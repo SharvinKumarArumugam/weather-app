@@ -23,33 +23,3 @@ I also want to improve the UI by adding a more interactive layout with icons, be
 Currently, the weather information provided by the API is mostly available in Bahasa Melayu, which creates challenges when displaying the data to users who may prefer English or other languages. This requires additional steps such as translation, text mapping, and label conversion.
 
 Another limitation is that some weather details require further data extraction and classification, especially for values such as rain intensity, wind speed/direction, and temperature variations. More advanced processing is needed to interpret and present this data in a clearer and more user-friendly format. Due to these factors, the current version of the app is limited to basic forecast output, and deeper weather analytics will be enhanced in future versions.
-
-- Item 1
-- Item 2
-  - Sub-item
-* Item 3
-
-1. First step
-2. Second step
-   1. Sub-step
-[GitHub](https://github.com)
-[OpenWeatherMap API](https://openweathermap.org)
-
-![Alt Text](image_url_or_path)
-
-
-| Feature       | Status     |
-|---------------|-----------|
-| Real-time API | ✅ Working |
-| 7-day forecast| ✅ Working |
-| Air quality   | ⚠️ Future |
-
-
-:warning: :rocket: :sunny: :cloud_rain:
-
-- [x] API integration
-- [x] Add hourly forecast
-- [ ] Improve UI responsiveness
-
-
-
