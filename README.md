@@ -1,16 +1,19 @@
-# React + Vite
+# Weather Application React.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1357" height="730" alt="image" src="https://github.com/user-attachments/assets/905ce9e5-57d2-488c-8168-c9f713ed344b" />
 
-Currently, two official plugins are available:
+In this Weather App project, I developed a web-based application that allows users to access real-time and 7-day weather forecast information for locations in Malaysia. The weather data was obtained from the Malaysia Government Open Data API via the following endpoint 🔗 GET https://api.data.gov.my/weather/forecast. This API provides weather details such as general forecasts, rain predictions, and live weather warnings, while earthquake alerts are handled through a separate endpoint due to their unique data format. All information is powered by MET Malaysia (Malaysian Meteorological Department), the official national source for weather and atmospheric conditions. During the development process, I integrated the API into the application by implementing HTTP requests to fetch forecast data and display it dynamically based on user input. I designed the interface to be fully responsive, ensuring that users can conveniently check weather conditions across multiple devices including desktop browsers and mobile screens. The main use case of this system is to help users plan their daily and weekly activities, travel arrangements, and outdoor schedules more efficiently by providing accurate and up-to-date weather insights. Overall, this Weather App demonstrates my ability to work with government open data sources, process API responses, and deliver an interactive and user-responsive application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For future improvement, I plan to add more weather attributes so users can view more detailed information. Upcoming enhancements may include:
 
-## React Compiler
+🌦 Hourly forecast
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🌧 Rainfall level
 
-## Expanding the ESLint configuration
+🌬 Wind direction & speed
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌫 Air quality & visibility
+
+🌞 Sunrise & sunset time
+
+I also want to improve the UI by adding a more interactive layout with icons, better color themes, and clearer data presentation. For now, the app is still limited to basic forecast details, but future updates will make it more complete and useful for all users.
