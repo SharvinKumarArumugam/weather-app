@@ -32,6 +32,24 @@ Another limitation is that some weather details require further data extraction 
 1. First step
 2. Second step
    1. Sub-step
+[GitHub](https://github.com)
+[OpenWeatherMap API](https://openweathermap.org)
+
+![Alt Text](image_url_or_path)
+
+
+| Feature       | Status     |
+|---------------|-----------|
+| Real-time API | ✅ Working |
+| 7-day forecast| ✅ Working |
+| Air quality   | ⚠️ Future |
+
+
+:warning: :rocket: :sunny: :cloud_rain:
+
+- [x] API integration
+- [ ] Add hourly forecast
+- [ ] Improve UI responsiveness
 
 
 
