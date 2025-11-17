@@ -48,7 +48,7 @@ Another limitation is that some weather details require further data extraction 
 :warning: :rocket: :sunny: :cloud_rain:
 
 - [x] API integration
-- [ ] Add hourly forecast
+- [x] Add hourly forecast
 - [ ] Improve UI responsiveness
 
 
